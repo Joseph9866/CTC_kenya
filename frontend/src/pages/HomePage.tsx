@@ -154,7 +154,7 @@ export default function HomePage() {
               Our flagship campaign focuses on equipping the youth with critical life skills, vocational training, and exposure to global opportunities. Join us in shaping the next generation of leaders.
             </p>
             <Link
-              to="/about"
+              to="/programs"
               className="inline-block border border-white text-white px-8 py-3 rounded text-sm font-semibold uppercase tracking-wider hover:bg-white hover:text-primary transition-colors"
             >
               Learn More About MEE

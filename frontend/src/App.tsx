@@ -1,5 +1,6 @@
 import { Routes, Route } from 'react-router-dom'
 import Layout from './components/Layout'
+import ScrollToTop from './components/ScrollToTop'
 import { DonateProvider } from './components/DonateContext'
 import HomePage from './pages/HomePage'
 import AboutPage from './pages/AboutPage'
@@ -11,6 +12,7 @@ import ContactPage from './pages/ContactPage'
 function App() {
   return (
     <DonateProvider>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<HomePage />} />

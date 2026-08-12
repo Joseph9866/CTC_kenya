@@ -148,10 +148,10 @@ export default function ContactPage() {
                       Email Us
                     </h3>
                     <a
-                      href="mailto:commitmenttocommunity.org@gmail.com"
+                      href="mailto:commitmenttocommunity@gmail.com"
                       className="text-[14px] text-on-surface-variant hover:text-primary transition-colors"
                     >
-                      commitmenttocommunity.org@gmail.com
+                      commitmenttocommunity@gmail.com
                     </a>
                   </div>
                 </div>
